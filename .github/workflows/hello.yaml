@@ -4,5 +4,5 @@ jobs:
   printing_hello:
     runs-on: ubuntu-latest
     steps:
-      -name: print hello world
-       run: echo "Hello world"
+      - name: print hello world
+          run: echo "Hello world"
