@@ -2,7 +2,7 @@ name: Hello world workflow
 on: [push]
 jobs:
   printing_hello:
-    runs_on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       -name: print hello world
       run: echo "Hello world"
