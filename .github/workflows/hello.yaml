@@ -1,0 +1,8 @@
+name: Hello world workflow
+on: [push]
+jobs:
+  printing_hello_word:
+    run_on: ubuntu
+    steps:
+      -name: print hello world
+      run: echo "Hello world"
