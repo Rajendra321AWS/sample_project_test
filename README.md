@@ -3,11 +3,11 @@
 
 ## Open github account
 ### Create a new repository
-Go to **Visual studio** or **any terminal** and got to repo in Machine
+Go to **Visual studio** or **any terminal** and go to repo in Machine  
 Clone git repository to local machine using SSH  
-Go repo
-create . file using **mkdir .github**
-in .github directory create **workflows** directory
+Go repo  
+create . file using **mkdir .github**  
+in .github directory create **workflows** directory  
 Create file and Do changes according to your requirements and save it.  
 **git add**.  
 **git commit -m "commit_name"**  
