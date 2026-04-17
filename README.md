@@ -20,18 +20,28 @@ Open **Visual Studio Code** or any terminal and navigate to the folder where you
 ---
 ## 4. Clone the Repository Using SSH
 ```bash
-git clone git@github.com:username/repository-name.git
+git clone git@github.com:username/repository-name.git  
 
 ---
-
 ## 5. Navigate to the Repository
+
+```bash
+cd repository-name
+
+
+
+
+
+
+
+--## 5. Navigate to the Repository
 cd repository-name
 6. Create GitHub Actions Folder
 
 Create the required directory structure:
 
 mkdir -p .github/workflows
-7. Create a Workflow File
+## 7. Create a Workflow File
 
 Create a workflow file:
 
