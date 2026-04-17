@@ -24,59 +24,19 @@ git clone git@github.com:username/repository-name.git
 ---
 
 ## 5. Navigate to the Repository
+cd repository-name
 
 ---
 ## 6. Create GitHub Actions Folder
-
----
-## 7. Create a workflow file:
-
----
-## 8. Stage Changes
-
----
-## 9. Commit Changes
-
----
-## 9. Commit Changes
-
----
-## 10. Push Changes to GitHub
-
----
-## 11. Verify GitHub Actions
-
----
-
-
-## 5. Navigate to the Repository
-
-```bash
-cd repository-name
-
-
-
-
-
-
-
---## 5. Navigate to the Repository
-cd repository-name
-6. Create GitHub Actions Folder
-
-Create the required directory structure:
-
 mkdir -p .github/workflows
-## 7. Create a Workflow File
 
-7. Create a workflow file:
-
+---
+## 7. Create a workflow file
 touch .github/workflows/main.yml
 
 Open the file and add your workflow configuration based on your project requirements.
 
 Example:
-
 name: CI Pipeline
 
 on:
@@ -94,12 +54,21 @@ jobs:
 
       - name: Run a script
         run: echo "Hello GitHub Actions!"
-8. Stage Changes
-git add .
-9. Commit Changes
-git commit -m "commit_name"
-10. Push Changes to GitHub
-git push origin main
-11. Verify GitHub Actions
 
+---
+## 8. Stage Changes
+git add .
+
+---
+## 9. Commit Changes
+git commit -m "commit_name"
+
+---
+## 10. Push Changes to GitHub
+git push origin main
+
+---
+## 11. Verify GitHub Actions
 Go to your repository in GitHub → Click on the Actions tab → Check your workflow run.
+
+---
