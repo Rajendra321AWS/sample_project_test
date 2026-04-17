@@ -1,6 +1,5 @@
 # <h1>How to Set Up a GitHub Repository and GitHub Actions Workflow</h1>
 ====================================================================
-# How to Set Up a GitHub Repository and GitHub Actions Workflow
 
 ## 1. Open GitHub Account
 Log in to your GitHub account on GitHub.
