@@ -22,7 +22,9 @@ Open **Visual Studio Code** or any terminal and navigate to the folder where you
 ```bash
 git clone git@github.com:username/repository-name.git
 
----## 5. Navigate to the Repository
+---
+
+## 5. Navigate to the Repository
 cd repository-name
 6. Create GitHub Actions Folder
 
