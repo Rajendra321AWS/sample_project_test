@@ -19,8 +19,27 @@ Open **Visual Studio Code** or any terminal and navigate to the folder where you
 
 ---
 ## 4. Clone the Repository Using SSH
-```bash
-git clone git@github.com:username/repository-name.git  
+
+---
+
+## 5. Clone the Repository Using SSH
+
+---
+## 6. Clone the Repository Using SSH
+
+---
+## 7. Clone the Repository Using SSH
+
+---
+## 8. Clone the Repository Using SSH
+
+---
+## 9. Clone the Repository Using SSH
+
+---
+## 9. Clone the Repository Using SSH
+
+
 
 ---
 ## 5. Navigate to the Repository
