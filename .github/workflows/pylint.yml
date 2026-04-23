@@ -1,0 +1,25 @@
+name: Pylint
+
+on:
+   push:
+     branches: ["main"]
+   pull_request:
+     branches: ["main"]
+jobs:
+  pylint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up python
+        uses: actions/checkout@v5
+
+      - name: Install dependencies
+        run: |
+          python -m pip Install --upgrade pip
+          pip Install pylint
+
+      - name: Run Pylint
+        run: |
+          pylint $(git ls files '*.py')
