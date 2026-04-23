@@ -17,8 +17,8 @@ jobs:
 
       - name: Install dependencies
         run: |
-          python -m pip Instal --upgrade pip
-          pip Install pylint
+          python -m pip install --upgrade pip
+          pip install pylint
 
       - name: Run Pylint
         run: |
